@@ -102,7 +102,6 @@ CONTRIBUTING.md     how to propose a pattern
 ## Now
 
 - [ ] **Start here: Mark shares the site with friends (L6).** HTTPS works and the sitemap is in Search Console.
-- [ ] Mark reviews ShieldedLabs/zodiac#88: all four ZIP drafts trimmed, three in STE, with a list of source problems. The ZIPs live in Zodiac; the bound-notes spec stays off this site.
 
 ## Soon
 
@@ -137,3 +136,4 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 15: Mark submitted https://appliedzcash.com/sitemap.xml in Google Search Console.
 - [x] Nov 15: Mark reviewed the bound-notes draft in a local preview and decided it stays off this site; he handles the ZIPs on the Zodiac end. ShieldedLabs/zodiac#88 trims all four drafts (bound notes 467 to 290 lines with test vectors; pairing, decision markets and wallet orders also moved to STE).
 - [x] Nov 15: `set_canonical_pairing` in the pinned orchard fork (aphelionz/orchard `2e69445`) checked against the pairing ZIP rule by rule: it matches.
+- [x] Nov 15: Mark merged ShieldedLabs/zodiac#88: all four ZIP drafts trimmed, three moved to STE; decision markets gained an advisory report window D (VOID without a decision) and a fee allowance F at m x ZIP 317. Open source problems are listed in the PR description.
