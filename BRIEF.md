@@ -96,14 +96,13 @@ CONTRIBUTING.md     how to propose a pattern
 
 ## Now
 
-- [ ] **Start here: build L1.** The bound-notes page, spec and demo. It needs Mark's review of `draft-bound-notes.md` (Soon).
-- [ ] Mark merges the L0 PR. Then Mark sets Settings, then Pages, then the source "GitHub Actions". The site then serves at the org's `github.io` URL.
+- [ ] **Start here: Mark reviews `draft-bound-notes.md` for public release.** Also fix its Motivation claim "a note commitment appears once" (consensus enforces uniqueness for nullifiers only; the site page was corrected in PR #2). Ask Julian about the ZcashNames credit. Then add `/specs/bound-notes/` and link it from the page's Spec section. That closes L1.
+- [ ] Build L2: the polite-actions page and calculator. It has no review gate.
+- [ ] Mark turns on "Enforce HTTPS" for Pages (repo settings).
 - [ ] Mark picks licenses: code (MIT/Apache, like Zodiac) and page text (for example CC BY 4.0).
 
 ## Soon
 
-- [ ] Mark reviews `draft-bound-notes.md` for public release. Ask Julian about the ZcashNames credit.
-- [ ] Build L2: the polite-actions page and calculator.
 - [ ] Mark reviews the wallet-native orders ZIP. Build L3.
 - [ ] Align Zodiac's `set_canonical_pairing` with its ZIP (Zodiac BRIEF, Soon). Mark reviews the ZIP. Build L4.
 - [ ] Mark clears the FROST material from the art market build. Build L5 with an "experimental" label until a cryptographer reviews the nested construction.
@@ -122,3 +121,4 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 14: Mark created the `appliedzcash` org. The empty public repo is https://github.com/appliedzcash/appliedzcash.com, set as `origin`. First commit `84538ee` pushed to `main`.
 - [x] Nov 14: L0 skeleton. Home page, five pattern stubs, `styles/main.css` (light and dark), `scripts/wasm.js` loader, `demo/` crate (BLAKE2b-256 pipeline check, built to WASM), `pages.yml` workflow, `CONTRIBUTING.md` stub. Licenses still wait for Mark.
 - [x] Nov 14: L0 merged (appliedzcash/appliedzcash.com#1) and deployed. appliedzcash.com already points at Pages, so the site is live. Mark is fine with that.
+- [x] Nov 14: L1 page and demo merged (appliedzcash/appliedzcash.com#2). The page restates the mechanism and withholds the spec text; it names neither Zodiac nor ZcashNames. The demo is a timestamp registry on `orchard` 0.16 (both lead bytes) and replaces the home pipeline check. Copilot review fixed: cmx wording, fixed stamps, pool lock.
