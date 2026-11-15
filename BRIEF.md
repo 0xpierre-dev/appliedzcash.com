@@ -101,17 +101,16 @@ CONTRIBUTING.md     how to propose a pattern
 
 ## Now
 
-- [ ] **Start here: Mark reviews `draft-bound-notes.md` for public release.** Also fix its Motivation claim "a note commitment appears once" (consensus enforces uniqueness for nullifiers only; the site page was corrected in PR #2). Ask Julian about the ZcashNames credit. Then add `/specs/bound-notes/` and link it from the page's Spec section. That closes L1.
+- [ ] **Start here: Mark shares the site with friends (L6).** HTTPS works and the sitemap is in Search Console.
+- [ ] Mark reviews ShieldedLabs/zodiac#88: all four ZIP drafts trimmed, three in STE, with a list of source problems. The ZIPs live in Zodiac; the bound-notes spec stays off this site.
 
 ## Soon
 
 - [ ] Mark reviews the wallet-native orders ZIP. Then add `/specs/wallet-native-orders/` (closes L3).
-- [ ] Align Zodiac's `set_canonical_pairing` with its ZIP (Zodiac BRIEF, Soon). Mark reviews the ZIP. Then add `/specs/action-pairing/` (closes L4).
 - [ ] A cryptographer reviews the nested FROST construction. Until then the L5 page keeps its Experimental label.
 
 ## Later
 
-- [ ] L6: Mark announces the site.
 - [ ] Vale in CI for STE: sentence length, passive voice, and a vocabulary from the ASD-STE100 approved-word list (free from ASD on request).
 - [ ] A favicon and an og:image, so shared links show a picture.
 - [ ] `/wishlist/`: ZIP 68, ZIP 231 memo bundles, ZSAs, and what each would unlock.
@@ -136,3 +135,5 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 15: HTTPS fixed. GitHub had issued no certificate, so https://appliedzcash.com served a *.github.io certificate. Removing and re-adding the custom domain (Pages API, Mark's OK) got a Let's Encrypt certificate for appliedzcash.com and www (expires Feb 13, 2027). Enforce HTTPS is on, and HTTP redirects to HTTPS.
 - [x] Nov 15: licenses chosen by Mark (most permissive): code 0BSD (`LICENSE`), page text and images CC0 1.0 (`LICENSE-CC0`). Spec pages keep their ZIP draft's license (MIT). CI writes the WASM's third-party notices to `wasm/notices.html` with cargo-about 0.9.3. Merged in appliedzcash/appliedzcash.com#10 and live.
 - [x] Nov 15: Mark submitted https://appliedzcash.com/sitemap.xml in Google Search Console.
+- [x] Nov 15: Mark reviewed the bound-notes draft in a local preview and decided it stays off this site; he handles the ZIPs on the Zodiac end. ShieldedLabs/zodiac#88 trims all four drafts (bound notes 467 to 290 lines with test vectors; pairing, decision markets and wallet orders also moved to STE).
+- [x] Nov 15: `set_canonical_pairing` in the pinned orchard fork (aphelionz/orchard `2e69445`) checked against the pairing ZIP rule by rule: it matches.
