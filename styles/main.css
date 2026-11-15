@@ -428,3 +428,19 @@ pre {
   display: block;
   border-radius: var(--radius);
 }
+
+@media (min-width: 32rem) {
+  .field-row-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pairing-table td,
+.pairing-table th {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.pairing-table td.dummy {
+  color: var(--muted);
+}
