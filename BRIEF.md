@@ -102,7 +102,6 @@ CONTRIBUTING.md     how to propose a pattern
 ## Now
 
 - [ ] **Start here: Mark reviews `draft-bound-notes.md` for public release.** Also fix its Motivation claim "a note commitment appears once" (consensus enforces uniqueness for nullifiers only; the site page was corrected in PR #2). Ask Julian about the ZcashNames credit. Then add `/specs/bound-notes/` and link it from the page's Spec section. That closes L1.
-- [ ] Mark submits https://appliedzcash.com/sitemap.xml in Google Search Console.
 
 ## Soon
 
@@ -136,3 +135,4 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 15: L5 merged (appliedzcash/appliedzcash.com#8) and live: threshold keys page in 100% STE with an Experimental label, and the nested FROST demo (2-of-3 group in a 2-of-2 key, per-object tweak, hash-then-reveal commitments; reddsa 0.5.2 on frost-core 3.0.0). Mark cleared the art market's tweak and nesting recipe; the page names neither the art market, the estate, Zodiac nor SRA. All five pattern pages are live.
 - [x] Nov 15: HTTPS fixed. GitHub had issued no certificate, so https://appliedzcash.com served a *.github.io certificate. Removing and re-adding the custom domain (Pages API, Mark's OK) got a Let's Encrypt certificate for appliedzcash.com and www (expires Feb 13, 2027). Enforce HTTPS is on, and HTTP redirects to HTTPS.
 - [x] Nov 15: licenses chosen by Mark (most permissive): code 0BSD (`LICENSE`), page text and images CC0 1.0 (`LICENSE-CC0`). Spec pages keep their ZIP draft's license (MIT). CI writes the WASM's third-party notices to `wasm/notices.html` with cargo-about 0.9.3. Merged in appliedzcash/appliedzcash.com#10 and live.
+- [x] Nov 15: Mark submitted https://appliedzcash.com/sitemap.xml in Google Search Console.
