@@ -97,7 +97,6 @@ CONTRIBUTING.md     how to propose a pattern
 ## Now
 
 - [ ] **Start here: Mark reviews `draft-bound-notes.md` for public release.** Also fix its Motivation claim "a note commitment appears once" (consensus enforces uniqueness for nullifiers only; the site page was corrected in PR #2). Ask Julian about the ZcashNames credit. Then add `/specs/bound-notes/` and link it from the page's Spec section. That closes L1.
-- [ ] Merge the L2 PR (polite-actions page and calculator). Its toy app is a scoreboard; ADR 5's general facts appear without Zodiac's name.
 - [ ] Mark turns on "Enforce HTTPS" for Pages (repo settings).
 - [ ] Mark picks licenses: code (MIT/Apache, like Zodiac) and page text (for example CC BY 4.0).
 
@@ -122,3 +121,4 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 14: L0 skeleton. Home page, five pattern stubs, `styles/main.css` (light and dark), `scripts/wasm.js` loader, `demo/` crate (BLAKE2b-256 pipeline check, built to WASM), `pages.yml` workflow, `CONTRIBUTING.md` stub. Licenses still wait for Mark.
 - [x] Nov 14: L0 merged (appliedzcash/appliedzcash.com#1) and deployed. appliedzcash.com already points at Pages, so the site is live. Mark is fine with that.
 - [x] Nov 14: L1 page and demo merged (appliedzcash/appliedzcash.com#2). The page restates the mechanism and withholds the spec text; it names neither Zodiac nor ZcashNames. The demo is a timestamp registry on `orchard` 0.16 (both lead bytes) and replaces the home pipeline check. Copilot review fixed: cmx wording, fixed stamps, pool lock.
+- [x] Nov 14: L2 merged (appliedzcash/appliedzcash.com#3) and live: polite-actions page and scan-cost calculator for a toy scoreboard. ADR 5's general facts appear without Zodiac's name. Copilot review fixed: memo-cost scope, the padded second action, row headers.
