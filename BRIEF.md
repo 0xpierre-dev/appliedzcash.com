@@ -97,7 +97,6 @@ CONTRIBUTING.md     how to propose a pattern
 ## Now
 
 - [ ] **Start here: Mark reviews `draft-bound-notes.md` for public release.** Also fix its Motivation claim "a note commitment appears once" (consensus enforces uniqueness for nullifiers only; the site page was corrected in PR #2). Ask Julian about the ZcashNames credit. Then add `/specs/bound-notes/` and link it from the page's Spec section. That closes L1.
-- [ ] Merge the L4 PR (canonical action pairing page and rebuild demo). Mark approved publishing the page on Nov 15. The ZIP text and `/specs/action-pairing/` wait on his review.
 - [ ] Mark turns on "Enforce HTTPS" for Pages (repo settings).
 - [ ] Mark picks licenses: code (MIT/Apache, like Zodiac) and page text (for example CC BY 4.0).
 
@@ -126,3 +125,4 @@ CONTRIBUTING.md     how to propose a pattern
 - [x] Nov 14: L2 merged (appliedzcash/appliedzcash.com#3) and live: polite-actions page and scan-cost calculator for a toy scoreboard. ADR 5's general facts appear without Zodiac's name. Copilot review fixed: memo-cost scope, the padded second action, row headers.
 - [x] Nov 14: L3 merged (appliedzcash/appliedzcash.com#4) and live: wallet-native orders page in 100% STE and the toy-poll demo.
 - [x] Nov 15: donation address (Mark's Noir wallet, Mainnet UA) and its QR code in every footer (appliedzcash/appliedzcash.com#5).
+- [x] Nov 15: L4 merged (appliedzcash/appliedzcash.com#6) and live: canonical action pairing page in 100% STE and the rebuild demo (ZIP retry rule included). Copilot review fixed: retry rule, live result, CSS brace, mobile fields.
