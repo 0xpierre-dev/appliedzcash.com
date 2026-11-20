@@ -120,7 +120,8 @@ CONTRIBUTING.md     how to propose a pattern
 ## Now
 
 - [ ] **Start here: Mark posts the site to X (L6).**
-- [ ] Mark merges appliedzcash/appliedzcash.com#27: the Pages workflow caches the Rust build (`Swatinem/rust-cache` v2.9.3, pinned by commit, `workspaces: demo`). The first run on `main` fills the cache. Then compare the build time of a later PR run.
+- [ ] Compare the Pages build time of a PR run before and after #27 (merged Nov 20: `Swatinem/rust-cache` v2.9.3, pinned by commit, `workspaces: demo`). The first run on `main` fills the cache.
+- [ ] Mark merges appliedzcash/appliedzcash.com#28: a third hero button on the home page, "Go to the Signal group", and one sentence in the footer of all 11 pages. The link is the public invite to the Signal group for builders (Mark, Nov 20). The button text uses "Go to" because "join" is doubtful as an STE verb.
 
 ## Soon
 
